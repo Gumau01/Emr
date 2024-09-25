@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('layouts.admin.app');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
 // Route::get('/');
